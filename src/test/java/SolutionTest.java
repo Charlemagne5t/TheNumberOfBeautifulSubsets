@@ -20,4 +20,13 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void test3() {
+        int[] nums = {51, 15, 61, 64, 53, 6, 3, 5, 76, 79, 67, 26, 87, 76, 54, 50, 42, 80, 79};
+        int k = 74;
+        int expected = 245759;
+        int actual = new Solution().beautifulSubsets(nums, k);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
